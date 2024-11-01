@@ -1,7 +1,7 @@
 {
-  "name": "pomodoro-cli",
+  "name": "pomocli",
   "version": "1.0.0",
-  "description": "Pomodoro Timer CLI",
+  "description": "CLI-based Pomodoro Timer",
   "main": "index.js",
   "bin": {
     "pomocli": "./index.js"
@@ -12,6 +12,7 @@
   "author": "Feyyaz Akkus",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.2",
     "node-notifier": "^10.0.1",
     "yargs": "^17.7.2"
   }
