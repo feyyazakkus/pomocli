@@ -38,11 +38,6 @@ pomocli start --work 25 --break 5
 ## Notifications
 PomoCLI uses desktop notifications to alert you when a session is complete. You can choose to repeat the session or cancel it. Upon cancellation, the total work time will be displayed.
 
-## Dependencies
-yargs - Yargs helps you build interactive command line tools by parsing arguments and generating an elegant user interface.
-node-notifier - A Node.js module for sending notifications on native Mac, Windows, and Linux (or Growl as fallback).
-chalk - Terminal string styling done right.
-
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 

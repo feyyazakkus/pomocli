@@ -2,6 +2,11 @@
   "name": "@feyyazakkus/pomocli",
   "version": "1.0.0",
   "description": "A command-line Pomodoro timer tool",
+  "keywords": ["pomodoro", "cli", "productivity"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feyyazakkus/pomocli.git"
+  },
   "main": "index.js",
   "bin": {
     "pomocli": "./index.js"
