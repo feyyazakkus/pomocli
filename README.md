@@ -28,7 +28,7 @@ To specify custom durations for a session:
 pomocli start --work 25 --break 5
 ```
 
-Configure Default Durations
+### Configure Default Durations
 To set default durations for work and break sessions:
 
 ```
@@ -39,11 +39,13 @@ pomocli config --work 25 --break 5
 PomoCLI uses desktop notifications to alert you when a session is complete. You can choose to repeat the session or cancel it. Upon cancellation, the total work time will be displayed.
 
 ## Dependencies
-chalk - Terminal string styling done right.
-node-notifier - A Node.js module for sending notifications on native Mac, Windows, and Linux (or Growl as fallback).
 yargs - Yargs helps you build interactive command line tools by parsing arguments and generating an elegant user interface.
+node-notifier - A Node.js module for sending notifications on native Mac, Windows, and Linux (or Growl as fallback).
+chalk - Terminal string styling done right.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-test
+## Features Open for Contribution
+- Save the total work time across sessions to a file.
+- Add an option to track task names/IDs.
