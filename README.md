@@ -1,4 +1,5 @@
 # PomoCLI
+[![npm version](https://badge.fury.io/js/@feyyazakkus%2Fpomocli.svg)](https://badge.fury.io/js/@feyyazakkus%2Fpomocli)
 
 PomoCLI is a command-line interface (CLI) based Pomodoro Timer designed for developers. It helps you manage your work and break sessions efficiently using the Pomodoro Technique.
 
