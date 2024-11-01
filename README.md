@@ -13,10 +13,17 @@ PomoCLI is a command-line interface (CLI) based Pomodoro Timer designed for deve
 
 To install PomoCLI, you need to have [Node.js](https://nodejs.org/) installed on your machine. Then, you can install the package globally using npm:
 ```
-npm install -g pomocli
+npm install -g @feyyazakkus/pomocli
 ```
 
 ## Usage
+### Configure Default Durations
+To set default durations for work and break sessions (in minutes):
+
+```
+pomocli config --work 25 --break 5
+```
+
 ### Start a Pomodoro Timer
 To start a Pomodoro timer with default durations:
 ```
@@ -26,13 +33,6 @@ pomocli start
 To specify custom durations for a session:
 ```
 pomocli start --work 25 --break 5
-```
-
-### Configure Default Durations
-To set default durations for work and break sessions:
-
-```
-pomocli config --work 25 --break 5
 ```
 
 ## Notifications

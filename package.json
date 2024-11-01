@@ -1,7 +1,7 @@
 {
-  "name": "pomocli",
+  "name": "@feyyazakkus/pomocli",
   "version": "1.0.0",
-  "description": "CLI-based Pomodoro Timer",
+  "description": "A command-line Pomodoro timer tool",
   "main": "index.js",
   "bin": {
     "pomocli": "./index.js"
